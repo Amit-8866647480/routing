@@ -1,0 +1,17 @@
+
+
+
+
+.contact{
+    width:100%;
+    background-color: lightcoral;
+}
+.inner-contact{
+    max-width: 1200px;
+    margin: auto;
+}
+.inner-contact p{
+    color:white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}

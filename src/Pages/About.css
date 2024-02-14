@@ -1,0 +1,15 @@
+
+
+.about{
+    width: 100%;
+    background-color: cadetblue;
+}
+.inner-about{
+     max-width: 1200px;
+     margin: auto;
+}
+.inner-about p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}

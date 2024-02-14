@@ -1,0 +1,15 @@
+
+
+.course{
+  width: 100%;
+  background-color: deepskyblue;
+}
+.inner-course{
+    max-width: 1200px;
+    margin: auto;
+}
+.inner-course p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}

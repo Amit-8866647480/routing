@@ -1,0 +1,15 @@
+
+
+.home{
+    width: 100%;
+    background-color: gray;
+}
+.inner{
+    max-width:1200px;
+    margin: auto;
+
+}
+.inner p{
+    color: white;
+    font-size: 20px;
+}
