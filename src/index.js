@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { Home } from './Pages/Home';
+import { Home} from './Pages/Home';
 import { About } from './Pages/About';
 import { Course } from './Pages/Course';
 import { Contact } from './Pages/Contact';
