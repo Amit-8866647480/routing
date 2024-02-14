@@ -1,6 +1,9 @@
 import React from 'react'
 import { Header } from '../common/Header'
 import './About.css';
+import logo from '../Aboutus.jpg';
+import Footer from '../common/Footer';
+
 
 export function About() {
   return (
@@ -8,11 +11,23 @@ export function About() {
       <Header />
       <div className='about'>
         <div className='inner-about'>
-          <h2>About us</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellat iste nihil error. Adipisci excepturi rem odit, esse perspiciatis accusantium similique debitis necessitatibus minima aperiam numquam vel. Placeat, eligendi consequuntur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam itaque, ducimus animi, inventore quod consequuntur soluta, cum maiores corporis atque nam quis repellat maxime. Consectetur mollitia doloremque aut nobis.</p>
+		  <img src={logo} alt="" />
         </div>
       </div>
+		<h1>About Us Page</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae alias quam reiciendis dicta architecto doloremque cum nulla at quibusdam temporibus libero facilis, obcaecati rerum porro voluptatibus consectetur aperiam ea!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae alias quam reiciendis dicta architecto doloremque cum nulla at quibusdam temporibus libero facilis, obcaecati rerum porro voluptatibus consectetur aperiam ea!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae alias quam reiciendis dicta architecto doloremque cum nulla at quibusdam temporibus libero facilis, obcaecati rerum porro voluptatibus consectetur aperiam ea!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae alias quam reiciendis dicta architecto doloremque cum nulla at quibusdam temporibus libero facilis, obcaecati rerum porro voluptatibus consectetur aperiam ea!
+    </p>
+		<Footer/>
     </div>
   )
 }

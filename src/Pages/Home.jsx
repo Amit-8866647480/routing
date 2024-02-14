@@ -1,6 +1,8 @@
 import React from 'react'
 import { Header } from '../common/Header'
 import './Home.css';
+import logo from '../Home.jpg';
+import Footer from '../common/Footer';
 
 export function Home() {
   return (
@@ -8,12 +10,23 @@ export function Home() {
         <Header/>
     <div className='home'>
         <div className='inner'>
-            <h2>Home Page</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam non in doloremque sapiente est. Quo beatae, harum, perferendis blanditiis eveniet iusto atque reprehenderit debitis illum perspiciatis minus? Rerum, quaerat vero</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque error dolor laudantium quod iste hic fuga possimus consequatur quos quaerat asperiores, excepturi illo itaque atque quasi nisi repellendus perspiciatis tempora?</p>
-        <p>HR11</p>
+          <img src={logo} alt="" />
         </div>
     </div>
+    <h1>About Us</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae alias quam reiciendis dicta architecto doloremque cum nulla at quibusdam temporibus libero facilis, obcaecati rerum porro voluptatibus consectetur aperiam ea!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae alias quam reiciendis dicta architecto doloremque cum nulla at quibusdam temporibus libero facilis, obcaecati rerum porro voluptatibus consectetur aperiam ea!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae alias quam reiciendis dicta architecto doloremque cum nulla at quibusdam temporibus libero facilis, obcaecati rerum porro voluptatibus consectetur aperiam ea!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae alias quam reiciendis dicta architecto doloremque cum nulla at quibusdam temporibus libero facilis, obcaecati rerum porro voluptatibus consectetur aperiam ea!
+    </p>
+    <Footer/>
     </div>
   )
 }

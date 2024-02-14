@@ -12,9 +12,9 @@ export function Header() {
                   <ul type='none'>
                      <li> <Link to={'/'}>Home</Link></li>
                      <li> <Link to={'/about-us'}>About Us</Link></li>
-                     <li> <Link to={'/course'}>PDF Catalog</Link></li>
+                     <li> <Link to={'/Pdfcatalog'}>PDF Catalog</Link></li>
                      <li> <Link to={'/contact-us'}>Contact Us</Link></li>
-                     <li> <Link to={'/contact-us'}>Blogs</Link></li>
+                     {/* <li> <Link to={'/blogs'}>Blogs</Link></li> */}
                   </ul>
                </div>
             </div>

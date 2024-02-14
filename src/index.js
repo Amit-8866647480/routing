@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Home} from './Pages/Home';
 import { About } from './Pages/About';
-import { Course } from './Pages/Course';
+import { Pdfcatalog } from './Pages/Pdfcatalog';
 import { Contact } from './Pages/Contact';
 
 
@@ -20,13 +19,17 @@ let router=createBrowserRouter([
     element:<About/>
   },
   {
-    path:'/course',
-    element:<Course/>
+    path:'/Pdfcatalog',
+    element:<Pdfcatalog/>
   },
   {
     path:'/contact-us',
     element:<Contact/>
-  }
+  },
+  // {
+  //   path:'/blogs',
+  //   element:<Blogs/>
+  // }
 ])
 
 
